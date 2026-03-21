@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Work &amp; clients — realistic expectations</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="static/style.css" />
+  <style>
+    .guide { max-width: 720px; margin: 0 auto; }
+    .guide h1 { font-size: 1.5rem; margin-bottom: 1rem; }
+    .guide h2 { text-transform: none; letter-spacing: normal; color: var(--text); font-size: 1.1rem; margin-top: 1.5rem; }
+    .guide ul { padding-left: 1.25rem; color: var(--muted); }
+    .guide li { margin-bottom: 0.5rem; }
+    .warn { border-left: 3px solid var(--accent); padding-left: 1rem; margin: 1rem 0; color: var(--muted); }
+    .back { display: inline-block; margin-bottom: 1.5rem; color: var(--accent); text-decoration: none; }
+    .back:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="wrap guide">
+    <a class="back" href="index.html">← Back to portfolio</a>
+    <h1>Finding a job or clients — using this portfolio</h1>
+    <p class="warn"><strong>No job is “guaranteed.”</strong> What improves your odds: concrete proof (your live sites), warm network outreach, a clear niche, and a steady volume of targeted pitches.</p>
+
+    <h2>1. What this portfolio shows</h2>
+    <ul>
+      <li><strong>Lead Gen Tax (AU)</strong> — credibility for SMBs, tax, and Australian lead gen.</li>
+      <li><strong>Tradeasy, Earthstralia, Sacred Quantum Alignment</strong> — live sites, web stack.</li>
+      <li><strong>Sacred Arithmetic</strong> — intellectual content / education.</li>
+    </ul>
+
+    <h2>2. Fast actions (recommended order)</h2>
+    <ul>
+      <li><strong>Warm network</strong> — 20–30 messages to former contacts (“these projects are live; I’m looking for automation / web work”).</li>
+      <li><strong>LinkedIn</strong> — headline like “AI &amp; automation · lead gen · SMB sites” + link to this hosted portfolio.</li>
+      <li><strong>Upwork / Malt / marketplaces</strong> — apply within 15–30 minutes of new “automation / n8n / lead gen” job posts.</li>
+      <li><strong>Targeted cold outreach</strong> — pick one niche (e.g. agencies, solar installers) + a short message with one link to a case study or this portfolio.</li>
+    </ul>
+
+    <h2>3. Host this portfolio on a public URL</h2>
+    <ul>
+      <li>Deploy this repository folder to <strong>Netlify</strong> or <strong>Vercel</strong> (drag-and-drop) or <strong>GitHub Pages</strong>.</li>
+      <li>Local preview: <code>python -m http.server 8080</code> in the project folder (testing only).</li>
+      <li>With Flask: <code>pip install -r requirements.txt</code> then <code>flask run</code> (see README).</li>
+    </ul>
+
+    <h2>4. Markdown version</h2>
+    <p style="color: var(--muted);">See <code>GUIDE_EMPLOYMENT.md</code> in the same folder.</p>
+  </div>
+</body>
+</html>
