@@ -3,64 +3,223 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Portfolio — web systems, lead generation, automation, sacred arithmetic." />
-  <title>Portfolio — Projects &amp; sites</title>
+  <meta name="description" content="Business Analyst & AI Automation Specialist — workflow automation, systems integration, NSW Australia." />
+  <title>Business Analyst &amp; AI Automation Specialist — Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="static/style.css" />
+  <script>
+    (function () {
+      var k = "portfolio-theme";
+      var t = localStorage.getItem(k) || "dark";
+      if (t === "auto") {
+        t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      }
+      document.documentElement.setAttribute("data-theme", t);
+    })();
+  </script>
+  <script src="static/theme.js" defer></script>
 </head>
 <body>
-  <div class="bg-grid" aria-hidden="true"></div>
-  <div class="wrap">
-    <header>
-      <span class="badge">Online portfolio</span>
-      <h1>Projects &amp; work</h1>
-      <p class="subtitle">
-        A selection of sites and systems: trading, quantum alignment, tax lead generation (AU), Earthstralia project, sacred arithmetic.
-      </p>
-    </header>
+  <div class="bg-ambient" aria-hidden="true"></div>
 
-    <section aria-labelledby="sites-heading">
-      <h2 id="sites-heading">Sites &amp; URLs</h2>
-      <div class="cards">
+  <header class="top-bar">
+    <a class="brand-mark" href="#">Portfolio</a>
+    <div class="theme-group" role="group" aria-label="Theme">
+      <span aria-hidden="true">Theme</span>
+      <button type="button" class="theme-btn" data-theme-btn="dark" aria-pressed="true">Dark</button>
+      <button type="button" class="theme-btn" data-theme-btn="light" aria-pressed="false">Light</button>
+      <button type="button" class="theme-btn" data-theme-btn="auto" aria-pressed="false">System</button>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-inner">
+        <p class="hero-eyebrow">Independent consultant</p>
+        <h1 id="hero-title">Business Analyst &amp; AI Automation Specialist</h1>
+        <p class="hero-role">End-to-end systems, workflow automation, and adoption-focused delivery.</p>
+        <div class="hero-meta">
+          <span>Normanhurst 2077, NSW</span>
+          <span>Australian citizen</span>
+        </div>
+        <div class="hero-actions">
+          <span class="status-pill">Available immediately</span>
+          <!-- Replace mailto with your professional email -->
+          <a class="btn btn-primary" href="mailto:contact@example.com">Professional inquiries</a>
+          <a class="btn btn-ghost" href="guide.html">Work &amp; clients</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="profile-heading">
+      <div class="section-head">
+        <h2 id="profile-heading">Professional profile</h2>
+        <div class="section-line" aria-hidden="true"></div>
+      </div>
+      <div class="prose">
+        <p>
+          Results-driven Business Analyst and Automation Specialist with over ten years of independent consulting experience designing end-to-end business systems, building workflow automations, and translating complex operational problems into practical, scalable solutions. A hybrid profile combining analytical depth with hands-on technical execution — moving between stakeholder discovery, process design, automation build, and user adoption.
+        </p>
+        <p>
+          Hands-on practitioner with n8n, Python, REST APIs, Google Apps Script, and LLM-assisted tooling. Recognised for clear technical documentation, structured requirements gathering, and ensuring every automation launched is actually used. Systematic, detail-oriented delivery across multi-stakeholder environments and high-stakes project work.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="caps-heading">
+      <div class="section-head">
+        <h2 id="caps-heading">Core capabilities</h2>
+        <div class="section-line" aria-hidden="true"></div>
+      </div>
+      <div class="tag-grid">
+        <span class="tag">Workflow automation — n8n, Zapier, Make, Google Apps Script, Python</span>
+        <span class="tag">Process design — As-Is / To-Be, bottleneck analysis, optimisation</span>
+        <span class="tag">Systems integration — REST APIs, webhooks, JSON, OAuth, multi-tool pipelines</span>
+        <span class="tag">AI &amp; LLM tooling — prompt engineering, LLM workflows, tool selection</span>
+        <span class="tag">Technical documentation — PRDs, how-to guides, test cases, user tutorials</span>
+        <span class="tag">Sprint &amp; backlog — prioritisation, milestones, risk flagging</span>
+        <span class="tag">Stakeholder communication — requirements, cross-functional facilitation</span>
+        <span class="tag">Training &amp; adoption — onboarding, feedback loops, usage monitoring</span>
+        <span class="tag">Data — SQL, advanced Google Sheets, schema interpretation</span>
+        <span class="tag">Development — JavaScript, Node.js, HTML/CSS, PHP, Docker</span>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="exp-heading">
+      <div class="section-head">
+        <h2 id="exp-heading">Experience</h2>
+        <div class="section-line" aria-hidden="true"></div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-block">
+          <h3 class="timeline-title">Independent Systems &amp; Automation Consultant</h3>
+          <p class="timeline-meta">2014 — Present · NSW, Australia · Independent</p>
+          <ul>
+            <li>Designed and built end-to-end workflow automations using n8n, Python, and Google Apps Script — replacing manual processes with reliable pipelines across finance, operations, communications, and reporting.</li>
+            <li>Ran process discovery with cross-functional stakeholders; produced As-Is and To-Be maps identifying bottlenecks and automation opportunities.</li>
+            <li>Integrated SaaS and internal systems via REST APIs, webhooks, and JSON — unifying CRMs, spreadsheets, databases, and communication tools.</li>
+            <li>Authored PRDs, test cases, and specifications bridging business needs and technical implementation.</li>
+            <li>Delivered how-to guides and tutorials for every launch so non-technical users could operate and report issues independently.</li>
+            <li>Facilitated training and feedback loops to drive adoption of new tools and workflows.</li>
+            <li>Maintained backlogs and milestones; flagged risks across concurrent workstreams.</li>
+            <li>Applied LLM practices (prompting, tokens, context) to AI-assisted workflows for document processing, summarisation, and routing.</li>
+            <li>Queried SQL databases to support evidence-based operational decisions.</li>
+          </ul>
+          <p class="subheading">Key achievements</p>
+          <ul class="check-list">
+            <li>Built multi-step pipelines that removed hours of weekly manual processing for clients.</li>
+            <li>Delivered projects from discovery to adoption — including documentation and training — within agreed timelines.</li>
+            <li>Developed reusable automation templates and integration patterns across engagements.</li>
+            <li>Translated technical concepts into plain-language materials with high adoption and low support burden.</li>
+          </ul>
+        </div>
+        <div class="timeline-block">
+          <h3 class="timeline-title">Founder &amp; Operator — Tradeasy.me</h3>
+          <p class="timeline-meta">2021 — Present · Hornsby, NSW · Online</p>
+          <ul>
+            <li>Implemented automated operational systems with Python, Google Apps Script, and API integrations for reporting, tracking, and customer communications.</li>
+            <li>Built structured data pipelines and internal documentation for timely operational decisions.</li>
+            <li>Identified recurring inefficiencies and automated manual workflows to reduce overhead.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="work-heading">
+      <div class="section-head">
+        <h2 id="work-heading">Selected work</h2>
+        <div class="section-line" aria-hidden="true"></div>
+      </div>
+      <p class="prose" style="margin-bottom: 1.25rem;">Public sites and systems representative of lead generation, product, and conceptual work.</p>
+      <div class="cards cols-3">
         <a class="card" href="https://tradeasy.me/" target="_blank" rel="noopener noreferrer">
+          <span class="card-kicker">Product</span>
           <div class="card-title">Tradeasy</div>
           <div class="card-url">tradeasy.me</div>
-          <p class="card-desc">Web project focused on trading and user experience.</p>
+          <p class="card-desc">Trading-focused web product and user experience.</p>
         </a>
         <a class="card" href="https://sacredquantumalignment.com/" target="_blank" rel="noopener noreferrer">
+          <span class="card-kicker">Presence</span>
           <div class="card-title">Sacred Quantum Alignment</div>
           <div class="card-url">sacredquantumalignment.com</div>
-          <p class="card-desc">Quantum alignment &amp; online presence.</p>
+          <p class="card-desc">Quantum alignment and online presence.</p>
         </a>
         <a class="card" href="https://leadgentax.com.au/" target="_blank" rel="noopener noreferrer">
+          <span class="card-kicker">Lead gen</span>
           <div class="card-title">Lead Gen Tax (AU)</div>
           <div class="card-url">leadgentax.com.au</div>
-          <p class="card-desc">Lead generation for the tax sector in Australia.</p>
+          <p class="card-desc">Lead generation for the Australian tax sector.</p>
         </a>
         <a class="card" href="https://earthstralia.com/" target="_blank" rel="noopener noreferrer">
+          <span class="card-kicker">Project</span>
           <div class="card-title">Earthstralia</div>
           <div class="card-url">earthstralia.com</div>
-          <p class="card-desc">Earthstralia project — dedicated web presence.</p>
+          <p class="card-desc">Dedicated project web presence.</p>
         </a>
         <a class="card" href="https://sacredarithmetic.com/index.html" target="_blank" rel="noopener noreferrer">
+          <span class="card-kicker">Education</span>
           <div class="card-title">Sacred Arithmetic</div>
           <div class="card-url">sacredarithmetic.com</div>
-          <p class="card-desc">Sacred arithmetic — conceptual content and structure.</p>
+          <p class="card-desc">Conceptual structure and educational content.</p>
         </a>
       </div>
     </section>
 
-    <section aria-labelledby="note-heading">
-      <h2 id="note-heading" class="visually-hidden">About</h2>
-      <div class="note">
-        <strong>Usage:</strong> this page can be hosted on GitHub Pages, Netlify, Vercel, or your own domain. Links open the public sites in a new tab.
+    <section class="section" aria-labelledby="stack-heading">
+      <div class="section-head">
+        <h2 id="stack-heading">Technical stack</h2>
+        <div class="section-line" aria-hidden="true"></div>
+      </div>
+      <div class="tech-strip">
+        <span class="tag">n8n</span>
+        <span class="tag">Python</span>
+        <span class="tag">REST APIs</span>
+        <span class="tag">Webhooks</span>
+        <span class="tag">Google Apps Script</span>
+        <span class="tag">SQL</span>
+        <span class="tag">Node.js</span>
+        <span class="tag">Docker</span>
+        <span class="tag">JSON</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">Zapier</span>
+        <span class="tag">Make</span>
+        <span class="tag">LLM / AI tools</span>
+        <span class="tag">HTML / CSS</span>
+        <span class="tag">PHP</span>
+        <span class="tag">Google Workspace</span>
+        <span class="tag">Microsoft 365</span>
       </div>
     </section>
 
-    <footer>
-      <p>Static portfolio — <a href="guide.html">work &amp; clients (realistic expectations)</a></p>
+    <section class="section" aria-labelledby="edu-heading">
+      <div class="section-head">
+        <h2 id="edu-heading">Education &amp; languages</h2>
+        <div class="section-line" aria-hidden="true"></div>
+      </div>
+      <div class="grid-2">
+        <div class="edu-card">
+          <h3>Education</h3>
+          <p><strong>Master of Law (LL.M.)</strong><br />University of Aix-en-Provence, France — 2007</p>
+        </div>
+        <div class="lang-card">
+          <h3>Languages</h3>
+          <ul>
+            <li>English — fluent (professional)</li>
+            <li>French — native</li>
+            <li>Italian — reading comprehension</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <p class="note">
+      This page is a static portfolio; project links open in a new tab. Replace the email placeholder in the source before publishing if you use a public repository.
+    </p>
+
+    <footer class="site-footer">
+      <p>Static portfolio — <a href="guide.html">Finding work &amp; clients</a></p>
     </footer>
   </div>
 </body>
