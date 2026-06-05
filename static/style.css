@@ -202,7 +202,14 @@ body {
   font-size: clamp(1.1rem, 2vw, 1.28rem);
   color: var(--text-secondary);
   font-weight: 500;
-  margin: 0 0 1.25rem;
+  margin: 0 0 0.75rem;
+}
+
+.hero-value {
+  max-width: 740px;
+  margin: 0 0 1.35rem;
+  color: var(--text-secondary);
+  font-size: 1rem;
 }
 
 .hero-meta {
@@ -339,6 +346,59 @@ html[data-theme="light"] .btn-primary {
   margin-bottom: 0;
 }
 
+.service-grid,
+.capability-grid,
+.case-grid,
+.process-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 760px) {
+  .service-grid,
+  .capability-grid,
+  .case-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1040px) {
+  .service-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .case-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.service-card,
+.capability-card,
+.case-card,
+.process-grid div {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  padding: 1.15rem 1.2rem;
+}
+
+.service-card h3,
+.capability-card h3,
+.case-card h3 {
+  margin: 0 0 0.55rem;
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+.service-card p,
+.capability-card p,
+.process-grid p {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+}
+
 .feature-panel {
   display: grid;
   gap: 1.25rem;
@@ -380,6 +440,79 @@ html[data-theme="light"] .btn-primary {
   flex-wrap: wrap;
   gap: 0.75rem;
   margin-top: 1rem;
+}
+
+.case-card dl {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0;
+}
+
+.case-card div {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.case-card dt {
+  color: var(--accent);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.case-card dd {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.process-grid {
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 820px) {
+  .process-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.process-grid span {
+  display: block;
+  color: var(--accent);
+  font-family: ui-monospace, monospace;
+  font-size: 0.78rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  padding: clamp(1.25rem, 3vw, 1.7rem);
+  border: 1px solid var(--border-strong);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.contact-panel h2 {
+  margin: 0 0 0.35rem;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.45rem;
+}
+
+.contact-panel p {
+  margin: 0;
+  color: var(--text-secondary);
+  max-width: 60ch;
+}
+
+@media (max-width: 760px) {
+  .contact-panel {
+    display: block;
+  }
 }
 
 /* Capability tags */
