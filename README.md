@@ -36,7 +36,7 @@ Use the **Dark**, **Light**, or **System** control in the header. Choice is save
 
 ## Email placeholder
 
-Replace `mailto:contact@example.com` in `index.html` with your professional address before publishing (or keep private and use LinkedIn only).
+The hero CTA uses `mailto:romanlucian@proton.me`. After edits, deploy (e.g. Render) so the live site matches this repo.
 
 ## Files
 
