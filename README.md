@@ -43,7 +43,7 @@ The hero CTA uses `mailto:romanlucian@proton.me`. After edits, deploy (e.g. Rend
 | File | Purpose |
 |------|---------|
 | `index.html` | Portfolio (profile, experience, projects) |
-| `guide.html` | Work & clients guide (realistic expectations) |
+| `guide.html` | Work With Me page (services and contact) |
 | `GUIDE_EMPLOYMENT.md` | Same content in Markdown |
 | `app.py` | Optional Flask server |
 | `static/style.css` | Styles (themes, layout) |
