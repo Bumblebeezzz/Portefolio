@@ -1,0 +1,32 @@
+<svg width="960" height="560" viewBox="0 0 960 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Automation workflow preview</title>
+  <desc id="desc">A workflow preview showing intake, API enrichment, routing, reporting, and review checks.</desc>
+  <rect width="960" height="560" rx="24" fill="#0F1722"/>
+  <rect x="34" y="36" width="892" height="488" rx="22" fill="#FBFAF7"/>
+  <text x="64" y="84" fill="#172033" font-family="Arial, sans-serif" font-size="28" font-weight="700">Automation workflow system</text>
+  <text x="64" y="116" fill="#596170" font-family="Arial, sans-serif" font-size="18">From messy inputs to controlled execution and reporting.</text>
+  <rect x="70" y="170" width="146" height="110" rx="18" fill="#E7F0F1" stroke="#C9D8DC"/>
+  <text x="102" y="218" fill="#172033" font-family="Arial, sans-serif" font-size="18" font-weight="700">Intake</text>
+  <text x="96" y="246" fill="#596170" font-family="Arial, sans-serif" font-size="14">forms, CSV, CRM</text>
+  <path d="M230 225h64" stroke="#C9A962" stroke-width="4" stroke-linecap="round"/>
+  <path d="M280 211l18 14-18 14" stroke="#C9A962" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="314" y="170" width="146" height="110" rx="18" fill="#F0E9D9" stroke="#E0D2AF"/>
+  <text x="352" y="218" fill="#172033" font-family="Arial, sans-serif" font-size="18" font-weight="700">APIs</text>
+  <text x="342" y="246" fill="#596170" font-family="Arial, sans-serif" font-size="14">lookup, enrich</text>
+  <path d="M474 225h64" stroke="#C9A962" stroke-width="4" stroke-linecap="round"/>
+  <path d="M524 211l18 14-18 14" stroke="#C9A962" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="558" y="170" width="146" height="110" rx="18" fill="#E8ECEF" stroke="#D7DDE2"/>
+  <text x="594" y="218" fill="#172033" font-family="Arial, sans-serif" font-size="18" font-weight="700">Routing</text>
+  <text x="584" y="246" fill="#596170" font-family="Arial, sans-serif" font-size="14">rules, queues</text>
+  <path d="M718 225h64" stroke="#C9A962" stroke-width="4" stroke-linecap="round"/>
+  <path d="M768 211l18 14-18 14" stroke="#C9A962" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="802" y="170" width="88" height="110" rx="18" fill="#172033"/>
+  <text x="826" y="218" fill="#F7F5F0" font-family="Arial, sans-serif" font-size="18" font-weight="700">BI</text>
+  <rect x="96" y="346" width="214" height="74" rx="16" fill="#FFFFFF" stroke="#E0DAD0"/>
+  <text x="122" y="386" fill="#172033" font-family="Arial, sans-serif" font-size="18" font-weight="700">n8n / Apps Script</text>
+  <rect x="344" y="346" width="214" height="74" rx="16" fill="#FFFFFF" stroke="#E0DAD0"/>
+  <text x="370" y="386" fill="#172033" font-family="Arial, sans-serif" font-size="18" font-weight="700">Webhook controls</text>
+  <rect x="592" y="346" width="214" height="74" rx="16" fill="#FFFFFF" stroke="#E0DAD0"/>
+  <text x="618" y="386" fill="#172033" font-family="Arial, sans-serif" font-size="18" font-weight="700">Review gates</text>
+  <path d="M205 346v-38h494v38" stroke="#6FB7C8" stroke-width="4" stroke-linecap="round"/>
+</svg>

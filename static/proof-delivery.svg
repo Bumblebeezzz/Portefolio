@@ -1,0 +1,38 @@
+<svg width="960" height="560" viewBox="0 0 960 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Delivery evidence preview</title>
+  <desc id="desc">A delivery evidence board showing Jira updates, documentation, acceptance checks, and handover notes.</desc>
+  <rect width="960" height="560" rx="24" fill="#101620"/>
+  <rect x="34" y="36" width="892" height="488" rx="22" fill="#F7F5F0"/>
+  <rect x="64" y="68" width="260" height="416" rx="18" fill="#172033"/>
+  <text x="92" y="114" fill="#F7F5F0" font-family="Arial, sans-serif" font-size="24" font-weight="700">Delivery pack</text>
+  <rect x="92" y="152" width="178" height="16" rx="8" fill="#C9A962"/>
+  <rect x="92" y="192" width="198" height="48" rx="12" fill="#253047"/>
+  <text x="112" y="222" fill="#F7F5F0" font-family="Arial, sans-serif" font-size="16" font-weight="700">As-Is / To-Be</text>
+  <rect x="92" y="260" width="198" height="48" rx="12" fill="#253047"/>
+  <text x="112" y="290" fill="#F7F5F0" font-family="Arial, sans-serif" font-size="16" font-weight="700">PRD + specs</text>
+  <rect x="92" y="328" width="198" height="48" rx="12" fill="#253047"/>
+  <text x="112" y="358" fill="#F7F5F0" font-family="Arial, sans-serif" font-size="16" font-weight="700">Handover notes</text>
+  <rect x="356" y="68" width="506" height="118" rx="18" fill="#FFFFFF" stroke="#E0DAD0"/>
+  <text x="386" y="110" fill="#172033" font-family="Arial, sans-serif" font-size="22" font-weight="700">Jira-backed delivery</text>
+  <rect x="386" y="132" width="84" height="28" rx="14" fill="#F0E9D9"/>
+  <text x="408" y="152" fill="#8B6914" font-family="Arial, sans-serif" font-size="13" font-weight="700">SCRUM</text>
+  <rect x="486" y="132" width="118" height="28" rx="14" fill="#E7F0F1"/>
+  <text x="509" y="152" fill="#256F7F" font-family="Arial, sans-serif" font-size="13" font-weight="700">In Review</text>
+  <rect x="620" y="132" width="156" height="28" rx="14" fill="#E8ECEF"/>
+  <text x="644" y="152" fill="#172033" font-family="Arial, sans-serif" font-size="13" font-weight="700">Evidence linked</text>
+  <rect x="356" y="214" width="240" height="270" rx="18" fill="#FFFFFF" stroke="#E0DAD0"/>
+  <text x="386" y="252" fill="#172033" font-family="Arial, sans-serif" font-size="20" font-weight="700">Acceptance checks</text>
+  <path d="M392 294l18 18 36-46" stroke="#3D9A5C" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="462" y="282" width="92" height="12" rx="6" fill="#D5E2E4"/>
+  <path d="M392 356l18 18 36-46" stroke="#3D9A5C" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="462" y="344" width="104" height="12" rx="6" fill="#D5E2E4"/>
+  <path d="M392 418l18 18 36-46" stroke="#3D9A5C" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="462" y="406" width="74" height="12" rx="6" fill="#D5E2E4"/>
+  <rect x="622" y="214" width="240" height="270" rx="18" fill="#FFFFFF" stroke="#E0DAD0"/>
+  <text x="652" y="252" fill="#172033" font-family="Arial, sans-serif" font-size="20" font-weight="700">Operator notes</text>
+  <rect x="652" y="284" width="158" height="14" rx="7" fill="#F0E9D9"/>
+  <rect x="652" y="320" width="184" height="14" rx="7" fill="#D5E2E4"/>
+  <rect x="652" y="356" width="142" height="14" rx="7" fill="#E8ECEF"/>
+  <rect x="652" y="392" width="170" height="14" rx="7" fill="#D5E2E4"/>
+  <rect x="652" y="428" width="118" height="14" rx="7" fill="#F0E9D9"/>
+</svg>
