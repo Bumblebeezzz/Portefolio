@@ -1,0 +1,35 @@
+<svg width="960" height="560" viewBox="0 0 960 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">LeadGenBud dashboard preview</title>
+  <desc id="desc">A dashboard-style product preview with onboarding, provider readiness, trust, and delivery status panels.</desc>
+  <rect width="960" height="560" rx="24" fill="#111723"/>
+  <rect x="28" y="28" width="904" height="504" rx="20" fill="#F7F5F0"/>
+  <rect x="56" y="58" width="848" height="44" rx="12" fill="#172033"/>
+  <circle cx="82" cy="80" r="7" fill="#C9A962"/>
+  <circle cx="106" cy="80" r="7" fill="#6FB7C8"/>
+  <circle cx="130" cy="80" r="7" fill="#E5E1D8"/>
+  <text x="164" y="86" fill="#F7F5F0" font-family="Arial, sans-serif" font-size="18" font-weight="700">LeadGenBud Operating View</text>
+  <rect x="56" y="128" width="292" height="292" rx="18" fill="#FFFFFF" stroke="#E0DAD0"/>
+  <text x="82" y="164" fill="#172033" font-family="Arial, sans-serif" font-size="22" font-weight="700">Client onboarding</text>
+  <rect x="82" y="188" width="214" height="14" rx="7" fill="#D5E2E4"/>
+  <rect x="82" y="222" width="236" height="58" rx="12" fill="#F0E9D9"/>
+  <text x="106" y="257" fill="#172033" font-family="Arial, sans-serif" font-size="17" font-weight="700">Pricing clarity</text>
+  <rect x="82" y="298" width="236" height="58" rx="12" fill="#E7F0F1"/>
+  <text x="106" y="333" fill="#172033" font-family="Arial, sans-serif" font-size="17" font-weight="700">Trust flow checks</text>
+  <rect x="384" y="128" width="520" height="138" rx="18" fill="#FFFFFF" stroke="#E0DAD0"/>
+  <text x="414" y="164" fill="#172033" font-family="Arial, sans-serif" font-size="22" font-weight="700">Provider readiness</text>
+  <rect x="414" y="190" width="136" height="48" rx="12" fill="#E7F0F1"/>
+  <text x="442" y="221" fill="#256F7F" font-family="Arial, sans-serif" font-size="16" font-weight="700">Route OK</text>
+  <rect x="570" y="190" width="136" height="48" rx="12" fill="#F0E9D9"/>
+  <text x="596" y="221" fill="#8B6914" font-family="Arial, sans-serif" font-size="16" font-weight="700">Safe mode</text>
+  <rect x="726" y="190" width="136" height="48" rx="12" fill="#E8ECEF"/>
+  <text x="754" y="221" fill="#172033" font-family="Arial, sans-serif" font-size="16" font-weight="700">Evidence</text>
+  <rect x="384" y="292" width="248" height="128" rx="18" fill="#172033"/>
+  <text x="414" y="330" fill="#F7F5F0" font-family="Arial, sans-serif" font-size="20" font-weight="700">Delivery status</text>
+  <rect x="414" y="354" width="154" height="12" rx="6" fill="#C9A962"/>
+  <rect x="414" y="382" width="188" height="12" rx="6" fill="#6FB7C8"/>
+  <rect x="656" y="292" width="248" height="128" rx="18" fill="#FFFFFF" stroke="#E0DAD0"/>
+  <text x="686" y="330" fill="#172033" font-family="Arial, sans-serif" font-size="20" font-weight="700">Review evidence</text>
+  <path d="M696 374l26 26 58-72" stroke="#3D9A5C" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="56" y="450" width="848" height="34" rx="17" fill="#E8ECEF"/>
+  <rect x="56" y="450" width="612" height="34" rx="17" fill="#C9A962"/>
+</svg>
